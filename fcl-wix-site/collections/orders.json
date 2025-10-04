@@ -1,0 +1,111 @@
+{
+  "collectionName": "Orders",
+  "description": "Customer orders and transactions",
+  "fields": [
+    {
+      "name": "orderNumber",
+      "type": "text",
+      "required": true,
+      "unique": true,
+      "description": "Human-readable order number"
+    },
+    {
+      "name": "userId",
+      "type": "text",
+      "required": true,
+      "description": "Wix Member ID"
+    },
+    {
+      "name": "items",
+      "type": "array",
+      "required": true,
+      "description": "Order items"
+    },
+    {
+      "name": "total",
+      "type": "number",
+      "required": true,
+      "description": "Total order amount in cents"
+    },
+    {
+      "name": "currency",
+      "type": "text",
+      "default": "USD",
+      "description": "Order currency"
+    },
+    {
+      "name": "paymentMethod",
+      "type": "text",
+      "required": true,
+      "description": "stripe, coinbase, nowpayments"
+    },
+    {
+      "name": "status",
+      "type": "text",
+      "default": "pending",
+      "description": "pending, paid, shipped, delivered, cancelled"
+    },
+    {
+      "name": "stripePaymentIntentId",
+      "type": "text",
+      "description": "Stripe Payment Intent ID"
+    },
+    {
+      "name": "cryptoInvoiceId",
+      "type": "text",
+      "description": "Crypto payment invoice ID"
+    },
+    {
+      "name": "uniqueCode",
+      "type": "text",
+      "unique": true,
+      "description": "Generated unique product code"
+    },
+    {
+      "name": "blockchainTxId",
+      "type": "text",
+      "description": "Blockchain transaction ID"
+    },
+    {
+      "name": "webhookStatus",
+      "type": "text",
+      "description": "Webhook processing status"
+    },
+    {
+      "name": "shippingAddress",
+      "type": "object",
+      "description": "Customer shipping information"
+    },
+    {
+      "name": "billingInfo",
+      "type": "object",
+      "description": "Customer billing information"
+    },
+    {
+      "name": "createdAt",
+      "type": "datetime",
+      "description": "Order creation timestamp"
+    },
+    {
+      "name": "updatedAt",
+      "type": "datetime",
+      "description": "Last update timestamp"
+    }
+  ],
+  "permissions": {
+    "read": "owner",
+    "write": "admin"
+  },
+  "indexes": [
+    {
+      "fields": ["userId", "status"]
+    },
+    {
+      "fields": ["orderNumber"]
+    },
+    {
+      "fields": ["uniqueCode"]
+    }
+  ]
+}
+

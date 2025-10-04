@@ -1,0 +1,59 @@
+[
+  {
+    "key": "hero",
+    "value": "{\"headline\":\"Welcome to Frtl Creative Labs\",\"subheadline\":\"Innovation meets creativity in the future of technology\",\"backgroundType\":\"video\",\"videoUrl\":\"https://example.com/hero-video.mp4\",\"imageUrl\":\"https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=1920&h=1080&fit=crop\"}",
+    "type": "json",
+    "description": "Hero section content for welcome page",
+    "category": "homepage"
+  },
+  {
+    "key": "homepage",
+    "value": "{\"hero\":{\"title\":\"Welcome to Frtl Creative Labs\",\"subtitle\":\"Innovation meets creativity\",\"ctaText\":\"Explore Our Tech\"},\"whoIsFCL\":{\"title\":\"Who is Frtl Creative Labs?\",\"description\":\"We are innovators, creators, and visionaries building the future of technology.\"}}",
+    "type": "json",
+    "description": "Homepage content configuration",
+    "category": "homepage"
+  },
+  {
+    "key": "contact",
+    "value": "{\"email\":\"contact@frtlcreativelabs.com\",\"phone\":\"+1 (555) 123-4567\",\"address\":\"123 Innovation Drive, Tech City, TC 12345\"}",
+    "type": "json",
+    "description": "Contact information",
+    "category": "contact"
+  },
+  {
+    "key": "social",
+    "value": "{\"facebook\":\"https://facebook.com/frtlcreativelabs\",\"twitter\":\"https://twitter.com/frtlcreativelabs\",\"linkedin\":\"https://linkedin.com/company/frtlcreativelabs\",\"instagram\":\"https://instagram.com/frtlcreativelabs\"}",
+    "type": "json",
+    "description": "Social media links",
+    "category": "social"
+  },
+  {
+    "key": "footer",
+    "value": "{\"copyright\":\"© 2024 Frtl Creative Labs. All rights reserved.\",\"links\":[{\"text\":\"Privacy Policy\",\"url\":\"/privacy\"},{\"text\":\"Terms of Service\",\"url\":\"/terms\"},{\"text\":\"Refund Policy\",\"url\":\"/refunds\"}]}",
+    "type": "json",
+    "description": "Footer content and links",
+    "category": "footer"
+  },
+  {
+    "key": "company",
+    "value": "{\"name\":\"Frtl Creative Labs\",\"tagline\":\"Innovation meets creativity\",\"mission\":\"Building the future of technology through innovative solutions\",\"founded\":\"2024\",\"location\":\"Tech City, USA\"}",
+    "type": "json",
+    "description": "Company information",
+    "category": "company"
+  },
+  {
+    "key": "features",
+    "value": "{\"cryptoPayments\":true,\"blockchainIntegration\":true,\"uniqueCodes\":true,\"emailNotifications\":true,\"analytics\":true}",
+    "type": "json",
+    "description": "Feature flags",
+    "category": "features"
+  },
+  {
+    "key": "payment",
+    "value": "{\"stripeEnabled\":true,\"coinbaseEnabled\":true,\"nowpaymentsEnabled\":true,\"defaultCurrency\":\"USD\",\"supportedCurrencies\":[\"USD\",\"EUR\",\"GBP\"]}",
+    "type": "json",
+    "description": "Payment configuration",
+    "category": "payment"
+  }
+]
+

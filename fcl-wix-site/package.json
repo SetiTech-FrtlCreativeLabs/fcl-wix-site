@@ -1,0 +1,43 @@
+{
+  "name": "fcl-wix-site",
+  "version": "1.0.0",
+  "description": "Frtl Creative Labs Wix site with e-commerce and crypto payments",
+  "main": "index.js",
+  "scripts": {
+    "dev": "wix-cli dev",
+    "build": "wix-cli build",
+    "preview": "wix-cli preview",
+    "publish": "wix-cli publish",
+    "deploy": "wix-cli deploy"
+  },
+  "keywords": [
+    "wix",
+    "velo",
+    "ecommerce",
+    "stripe",
+    "crypto",
+    "blockchain",
+    "marketplace"
+  ],
+  "author": "Frtl Creative Labs",
+  "license": "MIT",
+  "dependencies": {
+    "stripe": "^14.0.0",
+    "qrcode": "^1.5.3"
+  },
+  "devDependencies": {
+    "@wix/cli": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/fcl-wix-site.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/fcl-wix-site/issues"
+  },
+  "homepage": "https://github.com/your-username/fcl-wix-site#readme"
+}
+

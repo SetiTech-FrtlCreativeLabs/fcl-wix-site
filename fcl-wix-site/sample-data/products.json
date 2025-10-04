@@ -1,0 +1,135 @@
+[
+  {
+    "title": "Quantum Computing Starter Kit",
+    "sku": "QCS-001",
+    "price": 29999,
+    "currency": "USD",
+    "description": "Complete quantum computing starter kit with development tools, documentation, and sample projects. Perfect for developers looking to explore quantum computing. Includes quantum circuit simulator, algorithm library, and comprehensive tutorials.",
+    "images": [
+      "https://images.unsplash.com/photo-1635070041078-e43c8c05a5e1?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&h=600&fit=crop"
+    ],
+    "inventoryCount": 50,
+    "initiativeId": "quantum-computing-interface",
+    "metadata": {
+      "category": "quantum-computing",
+      "difficulty": "beginner",
+      "includes": ["Development tools", "Documentation", "Sample projects", "Community access"],
+      "features": ["Quantum circuit simulator", "Algorithm library", "Tutorials", "Support"]
+    },
+    "stripePriceId": "price_1234567890",
+    "cryptoEnabled": true,
+    "isActive": true
+  },
+  {
+    "title": "Neural Network Pro License",
+    "sku": "NNP-002",
+    "price": 49999,
+    "currency": "USD",
+    "description": "Professional license for our Neural Network Optimization platform. Includes advanced features, priority support, and commercial usage rights. Perfect for enterprise AI development teams.",
+    "images": [
+      "https://images.unsplash.com/photo-1677442136019-21780ccdd014?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&h=600&fit=crop"
+    ],
+    "inventoryCount": 25,
+    "initiativeId": "neural-network-optimization",
+    "metadata": {
+      "category": "ai-ml",
+      "difficulty": "advanced",
+      "includes": ["Pro features", "Priority support", "Commercial license", "API access"],
+      "features": ["Advanced optimization", "Distributed training", "Real-time monitoring", "Enterprise support"]
+    },
+    "stripePriceId": "price_2345678901",
+    "cryptoEnabled": true,
+    "isActive": true
+  },
+  {
+    "title": "Blockchain Developer Toolkit",
+    "sku": "BDT-003",
+    "price": 19999,
+    "currency": "USD",
+    "description": "Comprehensive toolkit for blockchain development. Includes smart contract templates, testing frameworks, and deployment tools. Ideal for developers building decentralized applications.",
+    "images": [
+      "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&h=600&fit=crop"
+    ],
+    "inventoryCount": 100,
+    "initiativeId": "blockchain-integration-suite",
+    "metadata": {
+      "category": "blockchain",
+      "difficulty": "intermediate",
+      "includes": ["Smart contract templates", "Testing frameworks", "Deployment tools", "Documentation"],
+      "features": ["Multi-chain support", "Testing suite", "Deployment automation", "Monitoring tools"]
+    },
+    "stripePriceId": "price_3456789012",
+    "cryptoEnabled": true,
+    "isActive": true
+  },
+  {
+    "title": "AR/VR Experience Builder",
+    "sku": "ARV-004",
+    "price": 79999,
+    "currency": "USD",
+    "description": "Professional AR/VR development platform with drag-and-drop interface, 3D asset library, and deployment tools for multiple platforms. Perfect for creating immersive experiences.",
+    "images": [
+      "https://images.unsplash.com/photo-1592478411213-6153e4c4c8b8?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&h=600&fit=crop"
+    ],
+    "inventoryCount": 15,
+    "initiativeId": "ar-vr-development-platform",
+    "metadata": {
+      "category": "ar-vr",
+      "difficulty": "intermediate",
+      "includes": ["Drag-and-drop interface", "3D asset library", "Multi-platform deployment", "Analytics dashboard"],
+      "features": ["Visual editor", "Asset library", "Cross-platform", "Analytics"]
+    },
+    "stripePriceId": "price_4567890123",
+    "cryptoEnabled": true,
+    "isActive": true
+  },
+  {
+    "title": "IoT Sensor Array",
+    "sku": "ISA-005",
+    "price": 14999,
+    "currency": "USD",
+    "description": "Advanced IoT sensor array with environmental monitoring, data collection, and cloud connectivity. Perfect for smart city applications and industrial monitoring.",
+    "images": [
+      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&h=600&fit=crop"
+    ],
+    "inventoryCount": 75,
+    "initiativeId": "iot-sensor-network",
+    "metadata": {
+      "category": "iot",
+      "difficulty": "beginner",
+      "includes": ["Sensor array", "Data collection", "Cloud connectivity", "Monitoring dashboard"],
+      "features": ["Multi-sensor support", "Real-time data", "Cloud integration", "Dashboard"]
+    },
+    "stripePriceId": "price_5678901234",
+    "cryptoEnabled": true,
+    "isActive": true
+  },
+  {
+    "title": "Edge Computing Node",
+    "sku": "ECN-006",
+    "price": 99999,
+    "currency": "USD",
+    "description": "High-performance edge computing node with distributed processing capabilities, real-time analytics, and low-latency communication. Enterprise-grade solution for edge computing.",
+    "images": [
+      "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&h=600&fit=crop"
+    ],
+    "inventoryCount": 10,
+    "initiativeId": "edge-computing-framework",
+    "metadata": {
+      "category": "edge-computing",
+      "difficulty": "advanced",
+      "includes": ["High-performance processing", "Real-time analytics", "Low-latency communication", "Distributed computing"],
+      "features": ["High performance", "Real-time analytics", "Low latency", "Distributed processing"]
+    },
+    "stripePriceId": "price_6789012345",
+    "cryptoEnabled": true,
+    "isActive": true
+  }
+]
+

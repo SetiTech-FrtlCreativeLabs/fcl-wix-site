@@ -1,0 +1,99 @@
+{
+  "collectionName": "Products",
+  "description": "E-commerce products for One2One marketplace",
+  "fields": [
+    {
+      "name": "title",
+      "type": "text",
+      "required": true,
+      "description": "Product name"
+    },
+    {
+      "name": "sku",
+      "type": "text",
+      "required": true,
+      "unique": true,
+      "description": "Stock Keeping Unit"
+    },
+    {
+      "name": "price",
+      "type": "number",
+      "required": true,
+      "description": "Product price in cents"
+    },
+    {
+      "name": "currency",
+      "type": "text",
+      "default": "USD",
+      "description": "Currency code"
+    },
+    {
+      "name": "description",
+      "type": "text",
+      "required": true,
+      "description": "Product description"
+    },
+    {
+      "name": "images",
+      "type": "array",
+      "description": "Array of image URLs"
+    },
+    {
+      "name": "inventoryCount",
+      "type": "number",
+      "default": 0,
+      "description": "Available stock quantity"
+    },
+    {
+      "name": "initiativeId",
+      "type": "text",
+      "required": true,
+      "description": "Reference to FCL Tech initiative"
+    },
+    {
+      "name": "metadata",
+      "type": "object",
+      "description": "Additional product data"
+    },
+    {
+      "name": "stripePriceId",
+      "type": "text",
+      "description": "Stripe Price ID for payments"
+    },
+    {
+      "name": "cryptoEnabled",
+      "type": "boolean",
+      "default": true,
+      "description": "Whether crypto payments are enabled"
+    },
+    {
+      "name": "isActive",
+      "type": "boolean",
+      "default": true,
+      "description": "Whether product is available for purchase"
+    },
+    {
+      "name": "createdAt",
+      "type": "datetime",
+      "description": "Creation timestamp"
+    },
+    {
+      "name": "updatedAt",
+      "type": "datetime",
+      "description": "Last update timestamp"
+    }
+  ],
+  "permissions": {
+    "read": "public",
+    "write": "admin"
+  },
+  "indexes": [
+    {
+      "fields": ["initiativeId", "isActive"]
+    },
+    {
+      "fields": ["sku"]
+    }
+  ]
+}
+

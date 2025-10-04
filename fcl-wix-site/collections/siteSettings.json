@@ -1,0 +1,58 @@
+{
+  "collectionName": "SiteSettings",
+  "description": "Global site configuration",
+  "fields": [
+    {
+      "name": "key",
+      "type": "text",
+      "required": true,
+      "unique": true,
+      "description": "Setting key"
+    },
+    {
+      "name": "value",
+      "type": "text",
+      "description": "Setting value"
+    },
+    {
+      "name": "type",
+      "type": "text",
+      "default": "text",
+      "description": "text, image, video, json"
+    },
+    {
+      "name": "description",
+      "type": "text",
+      "description": "Setting description"
+    },
+    {
+      "name": "category",
+      "type": "text",
+      "description": "Setting category for organization"
+    },
+    {
+      "name": "isPublic",
+      "type": "boolean",
+      "default": false,
+      "description": "Whether setting is publicly accessible"
+    },
+    {
+      "name": "updatedAt",
+      "type": "datetime",
+      "description": "Last update timestamp"
+    }
+  ],
+  "permissions": {
+    "read": "public",
+    "write": "admin"
+  },
+  "indexes": [
+    {
+      "fields": ["key"]
+    },
+    {
+      "fields": ["category"]
+    }
+  ]
+}
+

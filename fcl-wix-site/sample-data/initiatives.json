@@ -1,0 +1,93 @@
+[
+  {
+    "title": "Quantum Computing Interface",
+    "summary": "Revolutionary quantum computing interface for next-generation applications",
+    "longDescription": "Our Quantum Computing Interface represents a breakthrough in quantum computing accessibility. This innovative platform bridges the gap between complex quantum algorithms and practical applications, making quantum computing accessible to developers and researchers worldwide. With advanced visualization tools, real-time simulation capabilities, and comprehensive documentation, developers can now harness the power of quantum computing without extensive background knowledge.",
+    "heroImage": "https://images.unsplash.com/photo-1635070041078-e43c8c05a5e1?w=800&h=600&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1635070041078-e43c8c05a5e1?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=800&h=600&fit=crop"
+    ],
+    "externalDocsLink": "https://docs.frtlcreativelabs.com/quantum-interface",
+    "slug": "quantum-computing-interface",
+    "featured": true,
+    "order": 1
+  },
+  {
+    "title": "Neural Network Optimization",
+    "summary": "Advanced neural network optimization for AI applications",
+    "longDescription": "Our Neural Network Optimization platform provides cutting-edge tools for training and optimizing neural networks. With advanced algorithms and real-time monitoring, developers can achieve unprecedented performance in their AI models. The platform includes automated hyperparameter tuning, distributed training capabilities, and comprehensive analytics to help developers build more efficient and accurate AI systems.",
+    "heroImage": "https://images.unsplash.com/photo-1677442136019-21780ccdd014?w=800&h=600&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1677442136019-21780ccdd014?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=800&h=600&fit=crop"
+    ],
+    "externalDocsLink": "https://docs.frtlcreativelabs.com/neural-optimization",
+    "slug": "neural-network-optimization",
+    "featured": true,
+    "order": 2
+  },
+  {
+    "title": "Blockchain Integration Suite",
+    "summary": "Comprehensive blockchain integration tools for decentralized applications",
+    "longDescription": "Our Blockchain Integration Suite provides developers with powerful tools to build and deploy decentralized applications. From smart contract development to cross-chain interoperability, we make blockchain technology accessible and practical. The suite includes development frameworks, testing tools, deployment automation, and monitoring capabilities to streamline the entire blockchain development lifecycle.",
+    "heroImage": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800&h=600&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=800&h=600&fit=crop"
+    ],
+    "externalDocsLink": "https://docs.frtlcreativelabs.com/blockchain-suite",
+    "slug": "blockchain-integration-suite",
+    "featured": true,
+    "order": 3
+  },
+  {
+    "title": "AR/VR Development Platform",
+    "summary": "Next-generation AR/VR development platform for immersive experiences",
+    "longDescription": "Our AR/VR Development Platform empowers creators to build immersive experiences with ease. From virtual reality applications to augmented reality overlays, our platform provides the tools and infrastructure needed for the future of digital interaction. The platform includes 3D asset libraries, physics engines, spatial audio tools, and cross-platform deployment capabilities.",
+    "heroImage": "https://images.unsplash.com/photo-1592478411213-6153e4c4c8b8?w=800&h=600&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1592478411213-6153e4c4c8b8?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=800&h=600&fit=crop"
+    ],
+    "externalDocsLink": "https://docs.frtlcreativelabs.com/ar-vr-platform",
+    "slug": "ar-vr-development-platform",
+    "featured": false,
+    "order": 4
+  },
+  {
+    "title": "IoT Sensor Network",
+    "summary": "Intelligent IoT sensor network for smart city applications",
+    "longDescription": "Our IoT Sensor Network provides comprehensive monitoring and data collection capabilities for smart city applications. With advanced sensors and real-time analytics, cities can optimize resources and improve quality of life for residents. The network includes environmental monitoring, traffic analysis, energy management, and predictive maintenance capabilities.",
+    "heroImage": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=800&h=600&fit=crop"
+    ],
+    "externalDocsLink": "https://docs.frtlcreativelabs.com/iot-sensors",
+    "slug": "iot-sensor-network",
+    "featured": false,
+    "order": 5
+  },
+  {
+    "title": "Edge Computing Framework",
+    "summary": "Distributed edge computing framework for real-time applications",
+    "longDescription": "Our Edge Computing Framework enables real-time processing and decision-making at the network edge. With distributed computing capabilities and low-latency processing, applications can achieve unprecedented performance and responsiveness. The framework includes load balancing, fault tolerance, data synchronization, and security features for enterprise-grade edge computing solutions.",
+    "heroImage": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=800&h=600&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1635070041078-e43c8c05a5e1?w=800&h=600&fit=crop"
+    ],
+    "externalDocsLink": "https://docs.frtlcreativelabs.com/edge-computing",
+    "slug": "edge-computing-framework",
+    "featured": false,
+    "order": 6
+  }
+]
+

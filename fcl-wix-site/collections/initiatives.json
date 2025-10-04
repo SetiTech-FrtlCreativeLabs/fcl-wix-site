@@ -1,0 +1,79 @@
+{
+  "collectionName": "Initiatives",
+  "description": "FCL Tech initiatives and projects",
+  "fields": [
+    {
+      "name": "title",
+      "type": "text",
+      "required": true,
+      "description": "Initiative name"
+    },
+    {
+      "name": "summary",
+      "type": "text",
+      "required": true,
+      "description": "Short description"
+    },
+    {
+      "name": "longDescription",
+      "type": "text",
+      "description": "Detailed description"
+    },
+    {
+      "name": "heroImage",
+      "type": "image",
+      "description": "Main hero image"
+    },
+    {
+      "name": "gallery",
+      "type": "array",
+      "description": "Gallery images"
+    },
+    {
+      "name": "externalDocsLink",
+      "type": "url",
+      "description": "Link to external documentation"
+    },
+    {
+      "name": "slug",
+      "type": "text",
+      "required": true,
+      "unique": true,
+      "description": "URL-friendly identifier"
+    },
+    {
+      "name": "featured",
+      "type": "boolean",
+      "default": false,
+      "description": "Whether to show on homepage"
+    },
+    {
+      "name": "order",
+      "type": "number",
+      "description": "Display order on tech page"
+    },
+    {
+      "name": "createdAt",
+      "type": "datetime",
+      "description": "Creation timestamp"
+    },
+    {
+      "name": "updatedAt",
+      "type": "datetime",
+      "description": "Last update timestamp"
+    }
+  ],
+  "permissions": {
+    "read": "public",
+    "write": "admin"
+  },
+  "indexes": [
+    {
+      "fields": ["featured", "order"]
+    },
+    {
+      "fields": ["slug"]
+    }
+  ]
+}
+

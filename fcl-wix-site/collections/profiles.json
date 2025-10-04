@@ -1,0 +1,68 @@
+{
+  "collectionName": "Profiles",
+  "description": "Extended user profiles",
+  "fields": [
+    {
+      "name": "memberId",
+      "type": "text",
+      "required": true,
+      "unique": true,
+      "description": "Wix Member ID"
+    },
+    {
+      "name": "displayName",
+      "type": "text",
+      "description": "User display name"
+    },
+    {
+      "name": "orders",
+      "type": "array",
+      "description": "Array of order IDs"
+    },
+    {
+      "name": "preferences",
+      "type": "object",
+      "description": "User preferences"
+    },
+    {
+      "name": "avatar",
+      "type": "image",
+      "description": "User avatar image"
+    },
+    {
+      "name": "bio",
+      "type": "text",
+      "description": "User biography"
+    },
+    {
+      "name": "website",
+      "type": "url",
+      "description": "User website"
+    },
+    {
+      "name": "socialLinks",
+      "type": "object",
+      "description": "Social media links"
+    },
+    {
+      "name": "createdAt",
+      "type": "datetime",
+      "description": "Profile creation timestamp"
+    },
+    {
+      "name": "updatedAt",
+      "type": "datetime",
+      "description": "Last update timestamp"
+    }
+  ],
+  "permissions": {
+    "read": "owner",
+    "write": "owner"
+  },
+  "indexes": [
+    {
+      "fields": ["memberId"]
+    }
+  ]
+}
+
